@@ -13,7 +13,7 @@ export default class CreateUser extends Component {
     }
 
     getUsers = async () => {
-        const res = await axios.get('http://localhost:4000/api/users');
+        const res = await axios.get('https://notes-mern.herokuapp.com/api/users');
         this.setState({
             users: res.data
         });
@@ -27,7 +27,7 @@ export default class CreateUser extends Component {
 
     onSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('http://localhost:4000/api/users', {
+        await axios.post('https://notes-mern.herokuapp.com/api/users', {
             username: this.state.username
         });
         this.setState({ username: '' });
@@ -37,7 +37,7 @@ export default class CreateUser extends Component {
     deleteUser = async (userId) => {
         const response = window.confirm('are you sure you want to delete it?');
         if (response) {
-            await axios.delete('http://localhost:4000/api/users/' + userId);
+            await axios.delete('https://notes-mern.herokuapp.com/api/users/' + userId);
             this.getUsers();
         }
     }

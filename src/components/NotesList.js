@@ -14,14 +14,14 @@ export default class NotesList extends Component {
     }
 
     getNotes = async () => {
-        const res = await axios.get('http://localhost:4000/api/notes')
+        const res = await axios.get('https://notes-mern.herokuapp.com/api/notes')
         this.setState({
             notes: res.data
         });
     }
 
     deleteNote = async (noteId) => {
-        await axios.delete('http://localhost:4000/api/notes/' + noteId);
+        await axios.delete('https://notes-mern.herokuapp.com/api/notes/' + noteId);
         this.getNotes();
     }
 
