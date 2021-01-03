@@ -57,7 +57,7 @@ export default class CreateNote extends Component {
             };
             axios.post('https://notes-mern.herokuapp.com/api/notes', newNote);
         }
-        window.location.href = '/';
+        window.location.href = '/mernstack';
 
     }
 
