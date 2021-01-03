@@ -9,7 +9,7 @@ export default class Navigation extends Component {
                 
                 <div className="container">
 
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/mernstack">
                         <i className="material-icons">
                             </i> NotesApp
                     </Link>
@@ -22,13 +22,13 @@ export default class Navigation extends Component {
 
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <Link to="/" className="nav-link">Notes</Link>
+                                <Link to="/mernstack" className="nav-link">Notes</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/create" className="nav-link">Create Note</Link>
+                                <Link to="/mernstack/create" className="nav-link">Create Note</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/user" className="nav-link">Create User</Link>
+                                <Link to="/mernstack/user" className="nav-link">Create User</Link>
                             </li>
                         </ul>
                         

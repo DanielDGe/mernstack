@@ -17,10 +17,10 @@ function App() {
       <Navigation />
       
       <div className="container p-4">
-        <Route path="/" exact component={NotesList} />
-        <Route path="/edit/:id" component={CreateNote} />
-        <Route path="/create" component={CreateNote} />
-        <Route path="/user" component={CreateUser} />
+        <Route path="/mernstack" exact component={NotesList} />
+        <Route path="/mernstack/edit/:id" component={CreateNote} />
+        <Route path="/mernstack/create" component={CreateNote} />
+        <Route path="/mernstack/user" component={CreateUser} />
       </div>
     
     </Router>
