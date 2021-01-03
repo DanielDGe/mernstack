@@ -17,7 +17,7 @@ function App() {
       <Navigation />
       
       <div className="container p-4">
-        <Route path="/" exact component={NotesList} />
+        <Route path="https://danieldge.github.io/mernstack/" exact component={NotesList} />
         <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
         <Route path="/user" component={CreateUser} />
