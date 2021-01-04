@@ -44,20 +44,20 @@ export default class CreateNote extends Component {
             const updatedNote = {
                 title: this.state.title,
                 content: this.state.content,
-                author: this.state.userSelected,
-                date: this.state.date
+                date: this.state.date,
+                author: this.state.userSelected
             };
             await axios.put('https://notes-mern.herokuapp.com/api/notes/' + this.state._id, updatedNote);
         } else {
             const newNote = {
                 title: this.state.title,
                 content: this.state.content,
-                author: this.state.userSelected,
-                date: this.state.date
+                date: this.state.date,
+                author: this.state.userSelected
             };
-            axios.post('https://notes-mern.herokuapp.com/api/notes', newNote);
+            await axios.post('https://notes-mern.herokuapp.com/api/notes', newNote);
         }
-        window.location.href = '/';
+        window.location.href = '/mernstack/';
 
     }
 
