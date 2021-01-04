@@ -17,16 +17,8 @@ export default class Navigation extends Component {
                     <button className="navbar-toggler" type="button" 
                             data-toggle="collapse" data-target="#navbarNav" 
                             aria-controls="navbarNav" aria-expanded="false" 
-                            aria-label="Toggle navigation"
-                            data-toggle="collapse" 
-                            data-target=".navbar-collapse">
-
+                            aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarNav">
