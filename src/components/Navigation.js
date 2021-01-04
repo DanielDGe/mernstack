@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default class Navigation extends Component {
@@ -26,7 +26,7 @@ export default class Navigation extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     */}
-                    
+
                     <button class="custom-toggler navbar-toggler" 
                             type="button" 
                             data-toggle="collapse" 
