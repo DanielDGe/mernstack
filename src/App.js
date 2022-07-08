@@ -10,6 +10,7 @@ import CreateUser from './components/CreateUser'
 import './App.css';
 
 function App() {
+  
   return (
     
     <Router>
@@ -26,6 +27,7 @@ function App() {
     </Router>
     
   );
+
 }
 
 export default App;

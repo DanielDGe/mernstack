@@ -48,7 +48,7 @@ export default class NotesList extends Component {
                                         {note.content}
                                     </p>
                                     <p>
-                                        Author: {note.author}
+                                        Autor: {note.author}
                                     </p>
                                     <p>
                                         {format(note.date)}
