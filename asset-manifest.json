@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mernstack/static/css/main.2f09871f.chunk.css",
-    "main.js": "/mernstack/static/js/main.2a00e4df.chunk.js",
-    "main.js.map": "/mernstack/static/js/main.2a00e4df.chunk.js.map",
+    "main.js": "/mernstack/static/js/main.12a09bb5.chunk.js",
+    "main.js.map": "/mernstack/static/js/main.12a09bb5.chunk.js.map",
     "runtime-main.js": "/mernstack/static/js/runtime-main.c95423d3.js",
     "runtime-main.js.map": "/mernstack/static/js/runtime-main.c95423d3.js.map",
     "static/css/2.5ea8d6f0.chunk.css": "/mernstack/static/css/2.5ea8d6f0.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.5ea8d6f0.chunk.css",
     "static/js/2.56d1e319.chunk.js",
     "static/css/main.2f09871f.chunk.css",
-    "static/js/main.2a00e4df.chunk.js"
+    "static/js/main.12a09bb5.chunk.js"
   ]
 }
